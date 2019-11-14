@@ -55,7 +55,8 @@
             <property name="enableSubPackages" value="false" />
         </javaClientGenerator>
 
-        <table tableName="stu_manager"
+
+        <table tableName="tb_user"
                enableCountByExample="true"
                enableUpdateByExample="true"
                enableDeleteByExample="true"
@@ -63,7 +64,7 @@
                selectByExampleQueryId="true">
             <generatedKey column="id" sqlStatement="Mysql" identity="true" />
         </table>
-
+        <!--        多个表在后面添加就好
         <table tableName="stu_student"
                enableCountByExample="true"
                enableUpdateByExample="true"
@@ -72,6 +73,9 @@
                selectByExampleQueryId="true">
             <generatedKey column="id" sqlStatement="Mysql" identity="true" />
         </table>
+        -->
+
+
 
     </context>
 </generatorConfiguration>
